@@ -1,7 +1,6 @@
 {
   "name": "@rafaelcalpena/custom-app-client",
   "version": "0.1.2",
-  "private": true,
   "dependencies": {
     "@rafaelcalpena/custom-redux-stack": "^0.1.2",
     "@rafaelcalpena/developer-dashboard-client": "^0.1.2",
@@ -12,6 +11,9 @@
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
     "react-scripts": "1.0.17"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "start": "react-scripts start",
