@@ -1,0 +1,19 @@
+{
+  "name": "@rafaelcalpena/hostile-promises",
+  "version": "0.0.2",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "hostile": "^1.3.0"
+  },
+  "scripts": {
+    "watch": "node node_modules/@rafaelcalpena/js-module/src",
+    "prepublishOnly": "node node_modules/@rafaelcalpena/js-module/src/build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rafaelcalpena/js-module": "^0.0.2"
+  }
+}

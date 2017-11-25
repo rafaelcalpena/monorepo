@@ -1,0 +1,23 @@
+{
+  "name": "@rafaelcalpena/custom-app-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-scripts": "1.0.17",
+    "@rafaelcalpena/custom-redux-stack": "^0.0.2",
+    "@rafaelcalpena/re-use": "^0.0.2",
+    "@rafaelcalpena/developer-dashboard-client": "^0.0.2",
+    "@rafaelcalpena/history-object": "^1.0.0",
+    "@rafaelcalpena/developer-dashboard-universal": "^0.0.1",
+
+    "graphql":"^0.10.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

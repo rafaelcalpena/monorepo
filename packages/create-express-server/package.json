@@ -1,0 +1,22 @@
+{
+  "name": "@rafaelcalpena/create-express-server",
+  "version": "0.0.2",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@rafaelcalpena/js-module": "^0.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "express-ws": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "watch": "node node_modules/@rafaelcalpena/js-module/src",
+    "prepublishOnly": "node node_modules/@rafaelcalpena/js-module/src/build"
+  }
+}

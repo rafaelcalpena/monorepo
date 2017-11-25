@@ -1,0 +1,19 @@
+{
+  "name": "@rafaelcalpena/get-package-dependencies",
+  "version": "0.0.2",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "node node_modules/@rafaelcalpena/js-module/src",
+    "prepublishOnly": "node node_modules/@rafaelcalpena/js-module/src/build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@rafaelcalpena/get-package-json": "^0.0.2"
+  },
+  "devDependencies": {
+    "@rafaelcalpena/js-module": "^0.0.2"
+  }
+}

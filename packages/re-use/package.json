@@ -1,0 +1,30 @@
+{
+  "name": "@rafaelcalpena/re-use",
+  "version": "0.0.2",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "node node_modules/@rafaelcalpena/js-module/src",
+    "prepublishOnly": "node node_modules/@rafaelcalpena/js-module/src/build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rafaelcalpena/js-module": "^0.0.2"
+  },
+  "peerDependencies": {
+    "@rafaelcalpena/custom-redux-stack": "0.0.1",
+    "react": "^15.3.0"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "materialize-css": "^0.98.1",
+    "node-uuid": "^1.4.8",
+    "react": "^15.3.0",
+    "react-apollo": "^1.0.1",
+    "react-dom": "^15.3.0",
+    "react-helmet": "^5.0.2",
+    "react-router-dom": "^4.1.1"
+  }
+}

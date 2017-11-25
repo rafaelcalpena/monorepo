@@ -1,0 +1,24 @@
+{
+  "name": "@rafaelcalpena/developer-dashboard-server",
+  "version": "0.0.2",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "node node_modules/@rafaelcalpena/js-module/src",
+    "prepublishOnly": "node node_modules/@rafaelcalpena/js-module/src/build",
+    "start": "node ./lib",
+    "test": "jest --watch"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rafaelcalpena/js-module": "^0.0.2"
+  },
+  "dependencies": {
+    "@rafaelcalpena/developer-dashboard-universal": "^0.0.1",
+    "@rafaelcalpena/run": "^0.0.2",
+    "@rafaelcalpena/create-express-server": "^0.0.2",
+    "@rafaelcalpena/history-object": "^1.0.0"
+  }
+}

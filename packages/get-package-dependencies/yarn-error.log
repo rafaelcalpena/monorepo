@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/local/Cellar/node/8.4.0/bin/node /usr/local/Cellar/yarn/0.27.5_1/libexec/bin/yarn.js install --mutex network:42424 --non-interactive
+
+PATH: 
+  /private/var/rafaelcalpena/projects/monorepo/packages/get-package-dependencies/node_modules/.bin:/private/var/rafaelcalpena/projects/monorepo/packages/node_modules/.bin:/private/var/rafaelcalpena/projects/monorepo/node_modules/.bin:/private/var/rafaelcalpena/projects/node_modules/.bin:/private/var/rafaelcalpena/node_modules/.bin:/private/var/node_modules/.bin:/private/node_modules/.bin:/node_modules/.bin:/usr/local/Cellar/node/8.4.0/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  8.4.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+  	"dependencies": {
+  		"@rafaelcalpena/get-package-json": "0.0.1",
+  		"babel-cli": "^6.24.1",
+  		"babel-jest": "^20.0.3",
+  		"babel-preset-es2015": "^6.24.1",
+  		"babel-preset-stage-2": "^6.24.1",
+  		"jest": "^20.0.4",
+  		"nodemon": "^1.11.0"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@rafaelcalpena%2fget-package-json: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/0.27.5_1/libexec/lib/yarn-cli.js:58200:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/0.27.5_1/libexec/lib/yarn-cli.js:114242:22)
+      at emitTwo (events.js:125:13)
+      at Request.emit (events.js:213:7)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/0.27.5_1/libexec/lib/yarn-cli.js:115225:10)
+      at emitOne (events.js:115:13)
+      at Request.emit (events.js:210:7)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/0.27.5_1/libexec/lib/yarn-cli.js:115145:12)
+      at Object.onceWrapper (events.js:314:30)
+      at emitNone (events.js:110:20)

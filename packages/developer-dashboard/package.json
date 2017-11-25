@@ -1,0 +1,29 @@
+{
+  "name": "@rafaelcalpena/lembreti",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@rafaelcalpena/developer-dashboard-client": "^0.0.2",
+    "@rafaelcalpena/developer-dashboard-server": "^0.0.2",
+    "@rafaelcalpena/custom-app-client": "^0.1.0",
+    "concurrently": "^3.1.0",
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node start-server.js",
+    "client": "node start-client.js",
+    "dev": "echo \"This command has been deprecated. Use 'npm start'\" && exit 1",
+    "lint": "eslint ."
+  },
+  "bin": {
+    "developer-dashboard": "./cli.js"
+  },
+  "devDependencies": {
+    "eslint": "3.15.0",
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "6.9.0"
+  }
+}

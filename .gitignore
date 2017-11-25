@@ -1,0 +1,10 @@
+node_modules
+lib
+packages/*/lib
+packages/*/node_modules
+
+packages/webdriverio/chromedriver
+packages/webdriverio/geckodriver
+packages/webdriverio/selenium-server-standalone-*.jar
+
+packages/*/config.json
