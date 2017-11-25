@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "watch": "node node_modules/@rafaelcalpena/js-module/src",
-    "prepublishOnly": "node node_modules/@rafaelcalpena/js-module/src/build",
+    "prepublishOnly": "node node_modules/@rafaelcalpena/js-module/src/build", 
     "start": "node ./lib",
     "test": "jest --watch"
   },
