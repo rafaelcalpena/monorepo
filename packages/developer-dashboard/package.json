@@ -1,5 +1,5 @@
 {
-  "name": "@rafaelcalpena/lembreti",
+  "name": "@rafaelcalpena/developer-dashboard",
   "version": "0.1.2",
   "dependencies": {
     "@rafaelcalpena/custom-app-client": "^0.1.2",
