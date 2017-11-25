@@ -1,6 +1,6 @@
 {
   "name": "@rafaelcalpena/developer-dashboard-universal",
-  "version": "0.0.1",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "private": true,
   "license": "MIT",
@@ -8,6 +8,6 @@
     "watch": "node node_modules/@rafaelcalpena/js-module/src"
   },
   "devDependencies": {
-    "@rafaelcalpena/js-module": "^0.0.2"
+    "@rafaelcalpena/js-module": "^0.1.2"
   }
 }

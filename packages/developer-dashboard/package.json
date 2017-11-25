@@ -1,11 +1,11 @@
 {
   "name": "@rafaelcalpena/lembreti",
-  "version": "0.0.1",
+  "version": "0.1.2",
   "private": true,
   "dependencies": {
-    "@rafaelcalpena/developer-dashboard-client": "^0.0.2",
-    "@rafaelcalpena/developer-dashboard-server": "^0.0.2",
-    "@rafaelcalpena/custom-app-client": "^0.1.0",
+    "@rafaelcalpena/custom-app-client": "^0.1.2",
+    "@rafaelcalpena/developer-dashboard-client": "^0.1.2",
+    "@rafaelcalpena/developer-dashboard-server": "^0.1.2",
     "concurrently": "^3.1.0",
     "react-scripts": "1.0.10"
   },

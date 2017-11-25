@@ -1,6 +1,6 @@
 {
   "name": "@rafaelcalpena/repository-exists",
-  "version": "0.0.2",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
@@ -11,10 +11,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@rafaelcalpena/directory-exists": "^0.0.2",
-    "@rafaelcalpena/run": "^0.0.2"
+    "@rafaelcalpena/directory-exists": "^0.1.2",
+    "@rafaelcalpena/run": "^0.1.2"
   },
   "devDependencies": {
-    "@rafaelcalpena/js-module": "^0.0.2"
+    "@rafaelcalpena/js-module": "^0.1.2"
   }
 }

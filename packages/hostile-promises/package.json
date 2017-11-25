@@ -1,6 +1,6 @@
 {
   "name": "@rafaelcalpena/hostile-promises",
-  "version": "0.0.2",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "license": "MIT",
   "dependencies": {
@@ -14,6 +14,6 @@
     "access": "public"
   },
   "devDependencies": {
-    "@rafaelcalpena/js-module": "^0.0.2"
+    "@rafaelcalpena/js-module": "^0.1.2"
   }
 }

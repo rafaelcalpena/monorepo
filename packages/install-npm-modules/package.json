@@ -1,6 +1,6 @@
 {
   "name": "@rafaelcalpena/install-npm-modules",
-  "version": "0.0.2",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
@@ -8,12 +8,12 @@
     "prepublishOnly": "node node_modules/@rafaelcalpena/js-module/src/build"
   },
   "devDependencies": {
-    "@rafaelcalpena/js-module": "^0.0.2"
+    "@rafaelcalpena/js-module": "^0.1.2"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@rafaelcalpena/run": "^0.0.2"
+    "@rafaelcalpena/run": "^0.1.2"
   }
 }

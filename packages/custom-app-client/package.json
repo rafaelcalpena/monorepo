@@ -1,18 +1,17 @@
 {
   "name": "@rafaelcalpena/custom-app-client",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
   "dependencies": {
+    "@rafaelcalpena/custom-redux-stack": "^0.1.2",
+    "@rafaelcalpena/developer-dashboard-client": "^0.1.2",
+    "@rafaelcalpena/developer-dashboard-universal": "^0.1.2",
+    "@rafaelcalpena/history-object": "^0.1.2",
+    "@rafaelcalpena/re-use": "^0.1.2",
+    "graphql": "^0.10.0",
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
-    "react-scripts": "1.0.17",
-    "@rafaelcalpena/custom-redux-stack": "^0.0.2",
-    "@rafaelcalpena/re-use": "^0.0.2",
-    "@rafaelcalpena/developer-dashboard-client": "^0.0.2",
-    "@rafaelcalpena/history-object": "^1.0.0",
-    "@rafaelcalpena/developer-dashboard-universal": "^0.0.1",
-
-    "graphql":"^0.10.0"
+    "react-scripts": "1.0.17"
   },
   "scripts": {
     "start": "react-scripts start",

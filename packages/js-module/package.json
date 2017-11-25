@@ -1,6 +1,6 @@
 {
   "name": "@rafaelcalpena/js-module",
-  "version": "0.0.2",
+  "version": "0.1.2",
   "description": "Contains necessary dependencies and scripts for javascript modules",
   "main": "index.js",
   "scripts": {
