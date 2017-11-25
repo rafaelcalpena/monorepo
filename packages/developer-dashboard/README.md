@@ -110,3 +110,7 @@ exports.categoriesElements = categoriesElements;
 exports.processes = processes;
 
 ```
+
+###Running
+
+`CONFIG_PATH=/absolute/path/to/config.js developer-dashboard`
