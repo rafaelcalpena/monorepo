@@ -1,6 +1,6 @@
 {
   "name": "@rafaelcalpena/developer-dashboard",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "dependencies": {
     "@rafaelcalpena/custom-app-client": "^0.1.2",
     "@rafaelcalpena/developer-dashboard-client": "^0.1.2",
