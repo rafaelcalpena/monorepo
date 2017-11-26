@@ -8,7 +8,7 @@ Save time by automating your daily actions into processes and tasks. Customize d
 
 ### Set Up
 
-Create a `config.js` inside `node_modules/@rafaelcalpena/developer-dashboard` with the accepted properties:
+Create a `config.js` anywhere in your folders with the accepted properties:
 
 ```javascript
 /*
@@ -113,4 +113,4 @@ exports.processes = processes;
 
 ###Running
 
-`CONFIG_PATH=/absolute/path/to/config.js developer-dashboard`
+Go to the folder that contains the `config.js` file and run `developer-dashboard` in your terminal

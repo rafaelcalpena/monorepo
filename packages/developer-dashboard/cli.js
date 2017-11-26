@@ -1,1 +1,4 @@
-#! NPM_ROOT="$(npm root -g)"; PATH="${NPM_ROOT}/@rafaelcalpena/developer-dashboard"; npm start --prefix ${PATH}
+#! /bin/sh
+NPM_ROOT="$(npm root -g)";
+DD_PATH="${NPM_ROOT}/@rafaelcalpena/developer-dashboard";
+CONFIG_PATH=${PWD}/config.js npm start --prefix ${DD_PATH}
